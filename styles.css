@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    display: flex;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.toppor {
+    display: flex;
+    align-content: space-between;
+    font-size: 20px;
+    color: maroon;
+    margin: 10px;
+    gap: 10px;
+    padding: 10px;
+}
+.botpor {
+    display: flex;
+    align-content: space-between;
+    font-size: 27px;
+    margin: 15px;
+    gap: 15px;
+    padding: 5px;
+    color: green;
+}
+.butpor{
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    gap: 40px;
+    padding:20px;
+    margin:10px;
+    color: blue;
+}
+.butts {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    gap: 40px;
+    font-size: 16px;
+    padding:20px;
+    margin:10px;
+    color: blue;
+}
+.txtcls {
+    font-size: 20px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> This is it it </title>
+        <link rel='stylesheet' href="styles.css"></style> 
+        <script src="javascript.js">
+
+        </script>
+      <!--  <script>
+           console.log('Inside html file'); 
+           invok();
+         
+        </script>  -->
+    </head>
+<body>
+  <h1 class="heading"> Rock Paper Scissors </h1>
+  <p class="toppor">  
+    <label for="playSel">  Player Selection: </label>
+    <input type=text name="playSel" id="playSel" class="txtcls"/>
+    <label for="compChoice">  Computer Selection: </label>
+    <input type=text name="compChoice" id="compChoice" disabled="disabled" class="txtcls"/> 
+  </p> 
+  <p class="botpor"> 
+    <label for="playSco">  Player Score: </label>
+    <input type=text name="playSco" id="playSco" disabled="disabled" class="txtcls"/>
+    <label for="compSco">  Computer Score: </label>
+    <input type=text name="compSco" id="compSco" readonly class="txtcls"/> 
+  </p>
+  <p class="butpor"> 
+    <input type="button" class="butts" value="Play" onclick="alert(testPlayRound(document.getElementById('playSel').value));"/>
+    <input type="button" class="butts" value="Reset" onclick="resetSel();"/>
+  </p>
+
+  <!--
+  <p>
+    <input list="choices" id="choice">
+    <datalist id="choices">
+      <option value="Rock" />
+      <option value="Paper" />
+      <option value="Scissors" />
+    </datalist>
+  </p>
+  <p> 
+    <select id="cce" Name="cces">
+      <option value="Rock"> Rock </option> 
+      <option value="Paper"> Paper </option> 
+      <option value="Scissors"> Scissors </option> 
+    </select>
+  </p>
+  <label name = "CompChoice" value=getComputerChoice()" ></label> <br>
+
+
+
+  
+
+  <input type="button" value="ComputerSel" onclick="alert(cce.value)"/>
+
+  <input type="button" value="Play" onclick="alert(playRound(cce.value, CompChoice.value))"/>
+-->
+</p>
+</body>
+</html>
